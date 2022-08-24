@@ -1,0 +1,48 @@
+body {
+    background-color: green;
+    min-width: 100vh;
+    min-height: 100vh
+}
+.container-fluid {
+    background-color: aqua;
+}
+@media (max-width: 1200px) { /* styles for viewports <= 320px */ }
+
+#navbar {
+    min-height: 10vh;
+}
+.row {
+    height: 100%;
+}
+
+.col-1 {
+    background-color: violet;
+    border: 50vh;
+    border-color: black;
+    text-align: center;
+}
+.col:hover {
+    background-color: gray;
+    font-size: 20px;
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    border-color: #007bff !important;
+
+}
+/* .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.4);
+    z-index: 3;
+    border-color: #007bff !important;
+} */
+.master-section {
+    min-height: 80vh;
+    background-color: gray;
+}
+header {
+    min-height: 5vh;
+}
+footer {
+    min-height: 5vh;
+}
