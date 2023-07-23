@@ -1,0 +1,17 @@
+main {
+    display: grid;
+    grid-template-areas: 
+    "head head head"
+    "side content content"
+    "foot foot foot";
+    grid-template-rows: 30px auto 30px;
+}
+
+header { grid-area: head;
+background-color: bisque;}
+article { grid-area: content;
+background-color: cornflowerblue;}
+aside { grid-area: side;
+background-color: darkgrey;}
+footer { grid-area: foot;
+background-color: antiquewhite;}
